@@ -1,0 +1,46 @@
+aside button{
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  margin-top: 15px;
+  background-image: url('./icons/lupa.svg');
+  background-color: transparent;
+  border: transparent;
+}
+
+aside input {
+border: transparent;
+height: 60px;
+margin-left: 15px;
+background-color: transparent;
+}
+
+aside .filtro{
+display: flex;
+align-items: flex-start;
+justify-content: center;
+border: 2px solid #E0E0E0;
+margin: 0;
+}
+
+aside .container-tag ul{
+margin-left:  90px;
+margin-bottom: 50px;
+
+}
+
+aside .container-tag li {
+list-style-type: none;
+color: #8D8D8D;
+}
+
+aside{
+border: 2px solid #E0E0E0;
+height: calc(100vh - 55px);
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+position: fixed;
+left: 0;
+bottom: 0;
+}

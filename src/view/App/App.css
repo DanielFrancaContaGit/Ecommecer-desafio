@@ -1,0 +1,11 @@
+.container-lista{
+  display: flex;
+  flex-direction: row;
+}
+
+.container-produtos{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 255px;
+}

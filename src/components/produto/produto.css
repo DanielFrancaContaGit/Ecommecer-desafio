@@ -1,0 +1,46 @@
+.produto-tag{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.produto-tag button{
+  width: 145px;
+  height: 30px;
+  margin-right: 15px;
+  color: #FFFFFF;
+  background-color: #FF312E;
+  border: hidden;
+  border-radius: 30px;
+}
+
+.produto-tag div{
+  margin-left: 15px;
+  color: #8D8D8D;
+}
+
+.produto{
+  background-color: #202124;
+  width: 300px;
+  height: 350px;
+  margin-left: 70px;
+  margin-top: 60px;
+  border: 3px solid #202124;
+  margin-bottom: 10px;
+}
+
+.produto img{
+  width: 100%;
+  height: 235px;
+}
+
+.produto p{
+  color: #FFFFFF;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-right: 15px;
+}
+
